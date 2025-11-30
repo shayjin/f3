@@ -1,0 +1,6 @@
+# Vercel deployment requirements
+# This file is used by Vercel to install dependencies
+# It references Backend/requirements.txt to avoid duplication
+
+-r Backend/requirements.txt
+

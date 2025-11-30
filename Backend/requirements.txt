@@ -1,0 +1,24 @@
+# Backend API dependencies only - optimized for Railway deployment
+# This file excludes frontend and unused ML dependencies to reduce image size
+
+# Core API
+fastapi==0.111.0
+uvicorn==0.24.0
+requests==2.31.0
+python-dotenv==1.0.1
+
+# AI/ML dependencies (minimal)
+strands-agents>=1.0.1
+strands-agents[gemini]
+fastmcp>=2.2.0
+
+# Data processing (minimal versions)
+pandas>=2.2.0
+numpy>=1.26.0,<2.0.0
+
+# Note: Removed from backend requirements:
+# - streamlit (frontend only, not needed in backend)
+# - sentence-transformers (not currently used, saves ~100MB+)
+# - matplotlib (not used in backend)
+# - plotly (not used in backend)
+

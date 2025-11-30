@@ -1,0 +1,22 @@
+CLINICAL VISIT SUMMARY
+Date: November 22, 2025
+Provider: Dr. Sarah Bennett, MD
+
+SUBJECTIVE:
+Patient presents today for a routine follow-up. Reports feeling generally well but has noticed some shortness of breath when exercising.
+
+ASSESSMENT / DIAGNOSIS:
+1. Essential Hypertension (Primary) - currently uncontrolled.
+2. Hyperlipidemia - requires management.
+3. Acute Bronchitis - onset 3 days ago.
+
+PLAN / MEDICATIONS:
+- Start Lisinopril 10 mg orally once daily for blood pressure.
+- Start Atorvastatin 20 mg orally at bedtime for cholesterol.
+- Prescribed Albuterol Inhaler 90mcg as needed for shortness of breath.
+
+VITALS / OBSERVATIONS:
+- Blood Pressure: 145/90 mmHg
+- Body Weight: 195 lbs
+- Body Temperature: 99.1 F
+- Heart Rate: 82 bpm
