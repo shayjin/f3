@@ -8,7 +8,7 @@ import os
 st.set_page_config(page_title="Health Buddy", layout="wide", page_icon="🩺")
 
 # Get API URL from environment variable, default to localhost for local development
-API_BASE = os.getenv("API_BASE_URL", "http://35.163.127.136:8000")
+API_BASE = os.getenv("API_BASE_URL", "http://34.217.175.113:8000")
 
 st.markdown("""
 <style>
@@ -356,4 +356,5 @@ with st.sidebar:
         st.session_state.patient_id = None
         st.session_state.chat_history = []
         st.session_state.tab_data = {k: None for k in st.session_state.tab_data}
+
         st.rerun()
